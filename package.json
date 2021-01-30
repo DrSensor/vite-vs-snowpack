@@ -1,1 +1,19 @@
-{"dependencies":{"@babylonjs/core":"^4.2.0","@babylonjs/gui":"^4.2.0","@capacitor/core":"^2.4.6","react":"^17.0.1","react-babylonjs":"^3.0.5","react-dom":"^17.0.1"},"devDependencies":{"@capacitor/cli":"^2.4.6","@types/react":"^17.0.0","@types/react-dom":"^17.0.0","@vitejs/plugin-react-refresh":"^1.1.3","rollup":"^2.38.1","typescript":"^4.1.3","vite":"^2.0.0-beta.59"}}
+{
+    "scripts": {
+        "start": "pnpm recursive run dev",
+        "preinstall": "npx -y only-allow pnpm"
+    },
+    "dependencies": {
+        "@babylonjs/core": "^4.2.0",
+        "@babylonjs/gui": "^4.2.0",
+        "react": "^17.0.1",
+        "react-babylonjs": "^3.0.5",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "rollup": "^2.38.1",
+        "typescript": "^4.1.3"
+    }
+}
