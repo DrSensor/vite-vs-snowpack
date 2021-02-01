@@ -5,6 +5,7 @@
     "devDependencies": {
         "@": "workspace:..",
         "@snowpack/plugin-react-refresh": "^2.4.0",
+        "@types/snowpack-env": "^2.3.3",
         "snowpack": "^3.0.11"
     }
 }
