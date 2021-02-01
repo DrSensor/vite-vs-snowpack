@@ -4,8 +4,7 @@ import { Vector3 } from "@babylonjs/core";
 
 import Mesh from "./Mesh";
 
-export default () => {
-
+export default function Game() {
     return <Engine antialias adaptToDeviceRatio>
         <Scene>
             <freeCamera name="main_camera"

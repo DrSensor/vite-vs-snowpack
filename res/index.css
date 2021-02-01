@@ -1,13 +1,13 @@
 @import "./font.css";
 
 html,
-body {
+#root {
     padding : 0;
     margin  : 0;
     overflow: hidden;
 }
 
-body>canvas {
+#root>canvas {
     width   : 100%;
     height  : 100%;
     position: absolute;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useClick } from "react-babylonjs";
 import { Vector3, Color3 } from "@babylonjs/core";
 
-export default () => {
+export default function Mesh() {
     const [color, setColor] = useState(Color3.Random())
     const [ref] = useClick(_ => {
         setColor(Color3.Random())
